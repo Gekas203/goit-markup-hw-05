@@ -101,6 +101,7 @@ body {
      padding-top: 24px;
      padding-bottom: 24px;
      display: block;
+     position: relative;
 }
 
 .header-link:hover,
@@ -129,11 +130,12 @@ body {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: var(--main-text-color);
+     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-     color: var(--secondary-focus-color);
+     color: #404bbf;
 }
 
 /* Hero section */
@@ -593,8 +595,8 @@ body {
      transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-item-link:hover,
-.main-item-link:focus {
+.main-item-link:hover p,
+.main-item-link:focus p{
      box-shadow: 
       0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16),
