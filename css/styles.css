@@ -677,3 +677,59 @@ body {
 .backdrop-icon {
      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.sub-text {
+     margin-bottom: 16px;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: var(--main-bg-color);
+     margin-left: 80px;
+}
+
+.sub-form {
+     display: flex;
+     gap: 24px;
+}
+
+.sub-input {
+     width: 264px;
+     height: 40px;
+     border: 1px solid #ffffff;
+     background-color: transparent;
+     font-size: 12px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     margin-left: 80px;
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+     border-radius: 4px;
+     color: var(--main-bg-color);
+}
+
+.sub-input::placeholder {
+     color: var(--main-bg-color);
+     padding-left: 16px;
+}
+
+.sub-btn {
+     min-width: 165px;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: var(--main-bg-color);
+     cursor: pointer;
+     background-color: var(--main-focus-color);
+     border: none;
+     border-radius: 4px;
+}
+
+.sub-svg {
+     margin-right: 16px;
+}
