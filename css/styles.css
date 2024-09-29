@@ -678,9 +678,7 @@ img {
     fill: transparent;
 }
 
-.checkbox-form-input:checked 
-+ .privacy-form-label
-> .checkbox-form-icon {
+.checkbox-form-input:checked + .privacy-form-label > .checkbox-form-icon {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
