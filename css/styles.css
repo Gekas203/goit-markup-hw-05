@@ -459,6 +459,10 @@ img {
     fill: #f4f4fd;
 }
 
+.footer-input-cintainer {
+    margin-left: 80px;
+}
+
 .footer-text-input {
     margin-bottom: 16px;
     font-weight: 500;
@@ -619,6 +623,10 @@ img {
     border-color: #4D5AE5;
 }
 
+.review-form-input:focus + .modal-svg-icon {
+    fill: #4D5AE5;
+}
+
 .modal-svg-icon {
     position: absolute;
     left: 16px;
@@ -678,7 +686,7 @@ img {
     fill: transparent;
 }
 
-.checkbox-form-input:checked + .privacy-form-label > .checkbox-form-icon {
+.checkbox-form-input:checked + .privacy-form-label > .checkbox-form-label {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
